@@ -5,7 +5,7 @@ function theBeatlesPlay(musicians, instrument) {
   for(let i = 0; i < musicians.length; i++) {
     emptyAtFirst.push("${musicians} plays ${instrument}");
   }
-
+  return emptyAtFirst;
   
 }
 
