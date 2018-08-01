@@ -18,3 +18,13 @@ function johnLennonFacts(facts) {
   }
   return holder;
 }
+
+function iLoveTheBeatles(num) {
+  var truism = [];
+  do{
+    truism.push("I love the Beatles!")
+    num++;
+  } while(num < 15);
+  
+  return truism;
+}
